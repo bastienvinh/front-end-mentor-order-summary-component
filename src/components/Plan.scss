@@ -1,0 +1,17 @@
+.plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  background-color: #f8f9fe;
+  border-radius: 16px;
+
+  a {
+    color: #524a98;
+  }
+
+  .price {
+    color: #6e7482;
+  }
+}

@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100vh;
+
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url('/pattern-background-desktop.svg');
+  background-size: cover;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

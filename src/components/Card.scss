@@ -1,0 +1,55 @@
+.card {
+  width: 25.625rem;
+  height: 39.375rem;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: white;
+  border-radius: 20px;
+
+  & > svg {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .card-content {
+    padding: 30px;
+    flex-grow: 1;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    grid-template-rows: 40px auto 90px 2.8125rem 2.8125rem;
+    grid-template-areas: "order-summary"
+                "presentation"
+                "annual-plan"
+                "proceed-button"
+                "cancel-order";
+
+    
+    h2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #222f56;
+    }
+    
+    & > p {
+      text-align: center;
+      color: #6e7482;
+    }
+  }
+
+  .button, .link-button {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+  .card {
+    width: 90%;
+  }
+}
