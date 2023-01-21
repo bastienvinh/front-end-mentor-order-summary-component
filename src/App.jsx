@@ -1,11 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import { Fragment } from 'react'
+import './App.scss'
 import Card from './components/Card'
+
+import BackgroundImage from './images/pattern-background-desktop.png'
 
 function App() {
   return (
-    <Card />
+    <Fragment>
+      <div className='background-image-desktop'>
+        <img src={BackgroundImage} />
+      </div>
+      <Card />
+    </Fragment>
   )
 }
 

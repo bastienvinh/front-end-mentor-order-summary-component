@@ -13,8 +13,6 @@ html, body, #root {
 
 body {
   background-color: hsl(225, 100%, 94%);
-  background-image: url('/pattern-background-desktop.svg');
-  background-size: cover;
 }
 
 #root {
